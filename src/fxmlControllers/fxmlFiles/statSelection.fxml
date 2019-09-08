@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlControllers.StatSelectionController">
+   <children>
+      <Pane prefHeight="550.0" prefWidth="800.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="550.0" prefWidth="800.0">
+               <children>
+                  <Label text="Label">
+                     <font>
+                        <Font name="System Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="150.0" text="Strength">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="strengthLabel" text="0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="150.0" text="Constitution">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="constitutionLabel" text="0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="150.0" text="Dexterity">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="dexterityLabel" text="0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="150.0" text="Intelligence">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="intelligenceLabel" text="0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="150.0" text="Wisdom">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="wisdomLabel" text="0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="30.0" prefWidth="150.0" text="Charisma">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="charismaLabel" text="0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Label>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="-" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#backToCharacterCreation" prefHeight="50.0" prefWidth="150.0" text="Back">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#startGame" prefHeight="50.0" prefWidth="150.0" text="Start Game">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
